@@ -1,0 +1,1 @@
+# Codigos en julia y python respectivos a los metodos numericos para la solucion de un sistema objeto-resorte inmersos en un fluido, este sistema experimenta una fuerza de arraste proporcional al cuadrado de la velocidad del fluido con respecto al objeto, además, experimentando la fuerza gravitatoria de la tierra
