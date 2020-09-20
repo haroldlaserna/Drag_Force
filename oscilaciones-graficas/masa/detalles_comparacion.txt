@@ -1,9 +1,0 @@
-g = 9.8
-p = 1000
-V = 3e-6
-V = 8e-5 fuerza opuesta
-k = 1
-x = 0.05
-m = 0.01669*3
-v = 0.0007
-t = np.arange(0,(k/m)*(2*np.pi),0.0025)
