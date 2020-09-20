@@ -15,12 +15,12 @@ t = np.arange(0, 8*np.pi, 0.0025)
 
 m, t = np.meshgrid(m, t)
 g = 9.8
-p = 997.0
+p = 1
 V = 3e-6
 k = 1.0
 x = 0.05
 
-v = 0.0007
+v = 0.007
 Z = ((-m*g+p*g*V)*m/k)*(1-np.cos(np.sqrt(m/k)*t)) + x*np.cos(np.sqrt(m/k)*t) + (v/np.sqrt(m/k))*np.sin(np.sqrt(m/k)*t)
 
 s = x*np.cos(np.sqrt(m/k)*t) + (v/np.sqrt(m/k))*np.sin(np.sqrt(m/k)*t)

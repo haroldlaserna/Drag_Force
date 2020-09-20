@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 g = 9.8
-p = 1
-V = 3e-6
+p = 1000
+V = 8e-5
 k = 1
 x = 0.05
 m = 0.01669*3
@@ -26,11 +26,7 @@ for i in [3,5,7]:
 	plt.plot(T, mini, "r--")
 	
 plt.legend(loc = "upper right")
-print(2*((-m*g+p*g*V)*m/k))
-print(min(Z)-min(s))
-print(min(s))
-print(np.where(Z==min(Z)))
-print(t[5691])
+print(-m*g+p*g*V)
 plt.grid()
 plt.xlabel("tiempo(s)")
 plt.xlim(min(t), max(t))
